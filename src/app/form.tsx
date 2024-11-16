@@ -16,7 +16,6 @@ import InvestmentProfile from "@/app/investment-profile";
 import Goals from "@/app/goals";
 import AssetAnalysis from "@/app/asset-analysis";
 import Ikigai from "@/app/ikigai";
-import SavartOne from "@/app/savart-one";
 
 type FormData = Record<string, unknown>;
 
@@ -50,7 +49,6 @@ const formSections: FormSection[] = [
   { title: "Goals", component: wrapComponent(Goals) },
   { title: "Asset Analysis", component: wrapComponent(AssetAnalysis) },
   { title: "Ikigai", component: wrapComponent(Ikigai) },
-  { title: "Savart One", component: wrapComponent(SavartOne) },
 ];
 
 interface ToastProps {
